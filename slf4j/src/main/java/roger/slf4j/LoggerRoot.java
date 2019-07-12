@@ -9,6 +9,7 @@ import org.slf4j.MDC;
 
 public class LoggerRoot {
 	private static final Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
+//    private static final Logger logger = LoggerFactory.getLogger(LoggerRoot.class);
 	
 	public static void main(String... args) {
 		MDC.put("app",  "RogerLogger");
