@@ -8,6 +8,11 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.slf4j.MDC;
 
+/**
+ * Testing for SLF4J
+ * @author Roger
+ *
+ */
 public class LoggerRoot {
 	private static final Logger logger = LoggerFactory.getLogger(MethodHandles.lookup().lookupClass().getSimpleName());
 //    private static final Logger logger = LoggerFactory.getLogger(LoggerRoot.class);
