@@ -40,6 +40,7 @@ public class LoggerRoot {
 	}
 	
 	public float divide(int i, int i2) {
+		logger.debug("i: " + i + " " + "i2: " + i2);
 		return i/i2;
 	}
 }
