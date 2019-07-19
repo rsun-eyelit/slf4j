@@ -21,6 +21,7 @@ public class LoggerRootTest {
 	}
 	
 	@Test
+	@DisplayName("exception test divide by zero")
 	void execptionTesting() {
 		Exception exception = assertThrows(ArithmeticException.class, () ->  
 			loggerRoot.divide(1,  0) );
