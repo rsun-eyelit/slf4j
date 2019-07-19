@@ -39,7 +39,12 @@ public class LoggerRoot {
 		return "A+B: " + oStrA.orElse("Empty") + " " + oStrB.orElse("Empty");
 	}
 	
-	public float divide(float f, float f2) {
-		return f/f2;
+	public float divide(float f, int i) {
+		try {
+			float r = f/i;
+			return f/i;
+		} catch (Exception e) {
+			return 0;
+		}
 	}
 }
